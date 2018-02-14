@@ -23,4 +23,4 @@ COPY plugin.cmake /girder/plugins/slicer_extension_manager/
 COPY plugin.json /girder/plugins/slicer_extension_manager/
 COPY README.rst /girder/plugins/slicer_extension_manager/
 
-RUN girder-install web --dev --plugins slicer_extension_manager
+RUN girder-install web --dev --plugins slicer_extension_manager,download_statistics

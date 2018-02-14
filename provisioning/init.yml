@@ -51,6 +51,7 @@
       token: "{{ admin['token'] }}"
       plugins:
         - slicer_extension_manager
+        - download_statistics
       state: present
 
   - name: Restart Girder Server
