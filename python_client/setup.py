@@ -2,6 +2,9 @@
 
 from setuptools import setup, find_packages
 
+# Produce an ImportError if this is missing
+import setuptools_scm  # noqa: F401
+
 install_reqs = [
     'click>=6.7',
     'girder_client',
